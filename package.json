@@ -2,22 +2,22 @@
   "name": "grunt-pubdot",
   "description": "a tool for dot publishment",
   "version": "0.1.0",
-  "homepage": "https://github.com/maplesec/grunt-pubdnt",
+  "homepage": "https://github.com/jiangzhenfei/grunt-pubdot",
   "author": {
-    "name": "郗文枫",
-    "email": "wenfeng_xi@dnt.com.cn"
+    "name": "jiangzhenfei",
+    "email": "937361926@qq.com"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:maplesec/grunt-pubdnt.git"
+    "url": "git@github.com:jiangzhenfei/grunt-pubdnt.git"
   },
   "bugs": {
-    "url": "https://github.com/maplesec/grunt-pubdnt/issues"
+    "url": "https://github.com/jiangzhenfei/grunt-pubdnt/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/maplesec/grunt-pubdnt/blob/master/LICENSE-MIT"
+      "url": "https://github.com/jiangzhenfei/grunt-pubdot/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
