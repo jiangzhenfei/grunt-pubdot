@@ -1,11 +1,9 @@
 /*
- * grunt-pubdnt
- * https://github.com/maplesec/grunt-pubdnt
+ * grunt-pubdot
+ * https://github.com/jiangzhenfei/grunt-pubdot
  *
  * Copyright (c) 2017 江振飞
- * Licensed under the MIT license.
  */
-
 'use strict';
 
 module.exports = function (grunt) {
@@ -71,16 +69,16 @@ module.exports = function (grunt) {
         //节点下执行已经存在的脚本，更新前端ui
         var dot = {}
         function update_dot(target_server_pra){
-            dot[target_server] = new Client();
-            dot[target_server].on('ready', function () {
+            dot[target_server_pra] = new Client();
+            dot[target_server_pra].on('ready', function () {
                 console.log(target_server_pra + "dot is connected");
-                dot[target_server].exec("./update_ui_from_199.sh;", function (err, stream) {
+                dot[target_server_pra].exec("./update_ui_from_199.sh;", function (err, stream) {
                     if (err) {
                         console.log('false')
                     }
                     stream.on('close', function (code, signal) {
                         console.log('Stream2 :: close :: code: ' + code + ', signal: ' + signal);
-                        dot[target_server].end();
+                        dot[target_server_pra].end();
                     }).on('data', function (data) {
                         console.log('STDOUT2: ' + data);
                     }).stderr.on('data', function (data) {
