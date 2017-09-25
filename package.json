@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jiangzhenfei/grunt-pubdnt.git"
+    "url": "git@github.com:jiangzhenfei/grunt-pubdot.git"
   },
   "bugs": {
-    "url": "https://github.com/jiangzhenfei/grunt-pubdnt/issues"
+    "url": "https://github.com/jiangzhenfei/grunt-pubdot/issues"
   },
   "licenses": [
   ],
